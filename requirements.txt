@@ -1,0 +1,19 @@
+Here’s a `requirements.txt` file for **Drawaria PyMacroRecord** based on the dependencies used in the code:
+
+```plaintext
+pynput==1.7.6
+tkinter==0.0.0
+```
+
+### Explanation:
+1. **`pynput`**: Used for capturing and controlling mouse and keyboard inputs.
+2. **`tkinter`**: Used for creating the graphical user interface (GUI). Note that `tkinter` is typically included with Python installations, so it may not need to be installed separately.
+
+### How to Use:
+1. Save the above content in a file named `requirements.txt`.
+2. Install the dependencies by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+This will ensure all necessary libraries are installed for the application to run.
